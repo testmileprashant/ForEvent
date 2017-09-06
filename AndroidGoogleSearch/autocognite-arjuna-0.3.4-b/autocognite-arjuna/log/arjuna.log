@@ -1,0 +1,63 @@
+[DEBUG]	2017-09-06|16:04:21	(ArjunaInternal.java:220)	Setting up Test Engine
+[DEBUG]	2017-09-06|16:04:21	(ArjunaInternal.java:11291)	Running Test Engine
+[DEBUG]	2017-09-06|16:04:21	(ArjunaTestEngine.java:77)	Create Test Runner - Start
+[DEBUG]	2017-09-06|16:04:21	(ArjunaTestEngine.java:78)	Create Test Reporter - Start
+[DEBUG]	2017-09-06|16:04:21	(ArjunaTestEngine.java:107)	Create Test Reporter - Finish
+[DEBUG]	2017-09-06|16:04:21	(ArjunaTestEngine.java:108)	Create Test Runner - Finish
+[DEBUG]	2017-09-06|16:04:21	(ArjunaInternal.java:12277)	Loading test definitions...
+[DEBUG]	2017-09-06|16:04:21	(ArjunaInternal.java:12317)	Loading session...
+[DEBUG]	2017-09-06|16:04:21	(PickerConfigForCLI.java:24)	Configuring picker: {}
+[DEBUG]	2017-09-06|16:04:21	(PickerConfigForCLI.java:24)	Configuring picker: {PACKAGE_CONSIDER_PATTERNS=.*?}
+[DEBUG]	2017-09-06|16:04:21	(BaseSession.java:43)	msession: Scheduling nodes
+[DEBUG]	2017-09-06|16:04:21	(BaseSession.java:45)	Session Node: node1
+[DEBUG]	2017-09-06|16:04:21	(BaseGroup.java:47)	magroup: Loading containers
+[DEBUG]	2017-09-06|16:04:21	(JavaTestClassGroupScheduler.java:32)	[com.arjuna.android.google.search.AppiumDemo]
+[DEBUG]	2017-09-06|16:04:21	(JavaTestClassGroupScheduler.java:33)	magroup:qb: Picking containers
+[DEBUG]	2017-09-06|16:04:21	(JavaTestClassGroupScheduler.java:36)	magroup: Looping over pickers...
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:344)	Group: magroup, Evaluating: com.arjuna.android.google.search.AppiumDemo
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:346)	Check package name: com.arjuna.android.google.search
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:297)	Target Object Name String: com.arjuna.android.google.search
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:298)	Ignore Pattern: null
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:299)	Consider Pattern: [.*?]
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:313)	Check consider pattern match.
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:315)	.*?
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:351)	Check class name: AppiumDemo
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:356)	Group: magroup, Including: com.arjuna.android.google.search.AppiumDemo
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:360)	[sampleTest]
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:363)	Group: magroup, Evaluating: sampleTest
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:366)	Group: magroup, Including: sampleTest
+[DEBUG]	2017-09-06|16:04:21	(AbstractPickerConfig.java:13286)	Mark Class Def picked: com.arjuna.android.google.search.AppiumDemo
+[DEBUG]	2017-09-06|16:04:21	(BaseSession.java:34)	msession: Loading nodes
+[DEBUG]	2017-09-06|16:04:21	(BaseSession.java:36)	Session Node: node1
+[DEBUG]	2017-09-06|16:04:21	(ArjunaInternal.java:12330)	Running Test Engine
+[DEBUG]	2017-09-06|16:04:21	(ArjunaTestEngine.java:202)	------------ RUN: START -----------------
+[DEBUG]	2017-09-06|16:04:21	(TestSessionRunner.java:61)	Session: msession, Session Node: node1:: Creating Thread
+[DEBUG]	2017-09-06|16:04:21	(TestSessionNodeRunner.java:23)	Session Node: node1:: Run begin
+[DEBUG]	2017-09-06|16:04:21	(TestSessionNodeRunner.java:31)	Session Node: node1:: Thread Count: 1
+[DEBUG]	2017-09-06|16:04:21	(TestSessionSubNodeRunner.java:41)	Session Node node1 started.
+[DEBUG]	2017-09-06|16:04:21	(TestSessionSubNodeSlotsRunner.java:40)	Session Sub Node node1-1-magroup started.
+[DEBUG]	2017-09-06|16:04:21	(ExecutionSlotsCreator.java:179)	com.arjuna.android.google.search.AppiumDemo
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	| Test Package                            | com.arjuna.android.google.search
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	| Test Class                              | AppiumDemo
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	| Test Method                             | sampleTest
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	| Test Result                             | PASS
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	| Result Code                             | ALL_STEPS_PASS
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	| Result Description                      | Passed
+[DEBUG]	2017-09-06|16:06:38	(Console.java:28)	----------------------------------------------------------------------------------------------------------------------------------
+[DEBUG]	2017-09-06|16:06:38	(TestSessionSubNodeSlotsRunner.java:45)	Session Sub Node node1-1-magroup finished.
+[DEBUG]	2017-09-06|16:06:38	(TestSessionSubNodeRunner.java:60)	Session Node node1 finished.
+[DEBUG]	2017-09-06|16:06:38	(TestSessionNodeRunner.java:60)	Session Node: node1:: Run end
+[DEBUG]	2017-09-06|16:06:38	(TestSessionRunner.java:54)	Session msession finished.
+[DEBUG]	2017-09-06|16:06:38	(DefaultReporter.java:132)	Tear Down - Begin
+[DEBUG]	2017-09-06|16:06:38	(DefaultReporter.java:133)	Tear Down - All Notifiers
+[DEBUG]	2017-09-06|16:06:38	(DefaultReporter.java:154)	Tear Down - Finish
+[DEBUG]	2017-09-06|16:06:38	(ArjunaTestEngine.java:216)	------------ RUN: FINISH -----------------
+[DEBUG]	2017-09-06|16:06:38	(ArjunaInternal.java:13304)	Generating reports
+[DEBUG]	2017-09-06|16:06:38	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2017-09-06|16:06:39	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2017-09-06|16:06:39	(ExcelReportGenerator.java:293)	Tear Down - Begin
+[DEBUG]	2017-09-06|16:06:39	(ExcelReportGenerator.java:297)	Tear Down - Finish
+[DEBUG]	2017-09-06|16:06:39	(ExcelReportGenerator.java:161)	Tear Down - Finish
+[DEBUG]	2017-09-06|16:06:39	(ArjunaInternal.java:241)	Tearing down Test Engine
+[DEBUG]	2017-09-06|16:06:39	(Console.java:28)	All Done. Exiting.
